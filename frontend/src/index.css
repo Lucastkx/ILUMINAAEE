@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@theme {
+  --color-ouro: #b8730a;
+  --color-ouro-escuro: #8f5808;
+  --color-mel: #fde3b0;
+  --color-papel: #fffaf0;
+}
+body { background: var(--color-mel); font-family: system-ui, sans-serif; color: #4a3305; }
+.input { width: 100%; border: 1px solid var(--color-ouro); border-radius: .375rem; padding: .5rem .75rem; background: #fff; }
+.input:focus { outline: 2px solid var(--color-ouro-escuro); outline-offset: 1px; }
+.btn { background: var(--color-ouro); color: #fff; font-weight: 700; border-radius: 9999px; padding: .6rem 2rem; }
+.btn:hover { background: var(--color-ouro-escuro); }
+.btn:focus-visible { outline: 2px solid #4a3305; outline-offset: 2px; }
