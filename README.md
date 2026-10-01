@@ -25,3 +25,6 @@ Vite: o servidor de desenvolvimento.
 Leaflet: o mapa, que vamos usar na tela do técnico.
 
 npm run dev    (liga o servidor)
+
+
+PROJETO AINDA EM DESENVOLVIMENTO!
